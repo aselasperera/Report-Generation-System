@@ -1,0 +1,9 @@
+Product Inventory Report
+  Product Name: Widget
+  Stock Level: 150
+  Reorder Level: 200
+    Status: Reorder Required
+  Product Name: Gadget
+  Stock Level: 80
+  Reorder Level: 50
+    Status: Sufficient Stock

@@ -1,0 +1,5 @@
+Monthly Sales Report for June 2024
+Total Sales: $12345.67
+Sales by Region:
+  North: $4567.89
+  South: $6789.01

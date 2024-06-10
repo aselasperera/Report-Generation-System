@@ -5,8 +5,8 @@ import (
 	"os"
 	"text/template"
 
-	"Report-Generation-System/data"
-	"Report-Generation-System/funcs"
+	"Report_Generation_System/data"
+	"Report_Generation_System/funcs"
 )
 
 func loadTemplates() (*template.Template, error) {

@@ -1,0 +1,9 @@
+Employee Performance Report
+  Name: Alice
+  Sales Achieved: $7890.12
+  Target: $7000.00
+    Status: Top Performer
+  Name: Bob
+  Sales Achieved: $6543.21
+  Target: $8000.00
+    Status: Needs Improvement
