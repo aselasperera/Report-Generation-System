@@ -1,0 +1,13 @@
+{{- define "InventoryReport" -}}
+Product Inventory Report
+{{- range . }}
+  Product Name: {{ .ProductName }}
+  Stock Level: {{ .StockLevel }}
+  Reorder Level: {{ .ReorderLevel }}
+  {{- if lt .StockLevel .ReorderLevel }}
+    Status: Reorder Required
+  {{- else }}
+    Status: Sufficient Stock
+  {{- end }}
+{{- end }}
+{{- end -}}

@@ -1,0 +1,8 @@
+{{- define "SalesReport" -}}
+Monthly Sales Report for {{ .Month }}
+Total Sales: ${{ printf "%.2f" .TotalSales }}
+Sales by Region:
+{{- range $region, $sales := .SalesByRegion }}
+  {{ $region }}: ${{ printf "%.2f" $sales }}
+{{- end }}
+{{- end -}}

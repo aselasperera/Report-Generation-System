@@ -1,0 +1,13 @@
+{{- define "PerformanceReport" -}}
+Employee Performance Report
+{{- range . }}
+  Name: {{ .Name }}
+  Sales Achieved: ${{ printf "%.2f" .SalesAchieved }}
+  Target: ${{ printf "%.2f" .Target }}
+  {{- if gt .SalesAchieved .Target }}
+    Status: Top Performer
+  {{- else }}
+    Status: Needs Improvement
+  {{- end }}
+{{- end }}
+{{- end -}}
