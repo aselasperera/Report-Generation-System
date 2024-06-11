@@ -1,9 +1,9 @@
 Employee Performance Report
-  Name: Alice
-  Sales Achieved: $7890.12
-  Target: $7000.00
+  Name: Asela Perera
+  Sales Achieved: $7000.15
+  Target: $6000.00
     Status: Top Performer
-  Name: Bob
-  Sales Achieved: $6543.21
+  Name: John Fernando
+  Sales Achieved: $6000.20
   Target: $8000.00
     Status: Needs Improvement

@@ -37,21 +37,21 @@ func main() {
 
 	salesData := data.SalesData{
 		Month:      "June 2024",
-		TotalSales: 12345.67,
+		TotalSales: 45000.10,
 		SalesByRegion: map[string]float64{
-			"North": 4567.89,
-			"South": 6789.01,
+			"North": 15000.05,
+			"South": 30000.05,
 		},
 	}
 
 	employees := []data.EmployeePerformance{
-		{"Alice", 7890.12, 7000},
-		{"Bob", 6543.21, 8000},
+		{"Asela Perera", 7000.15, 6000},
+		{"John Fernando", 6000.20, 8000},
 	}
 
 	inventory := []data.InventoryItem{
-		{"Widget", 150, 200},
-		{"Gadget", 80, 50},
+		{"Laptop", 150, 200},
+		{"Mobile Phone", 80, 50},
 	}
 
 	err = generateReport(tmpl, salesData, "SalesReport", "reports/monthly_sales_report.txt")
